@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Arsenal Fan Site</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="./images/logo.png" alt="Arsenal Logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buy.html">Buy Kit</a></li>
+                <li><a href="history.html">Our History</a></li>
+                <li><a href="fans.html">Fan images</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="" class="buy__kit__form">
+            <img src="./images/kit.jpg" alt="Kit picture" class="kit__image">
+
+            <fieldset>
+                <legend>Buy Kit</legend>
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                </div>
+                <div>
+                    <h1>Kit Size: </h1>
+                    <label for="S">S</label>
+                    <input type="checkbox" id="S" value="S" name="S">
+                    <label for="M">M</label>
+                    <input type="checkbox" id="M" value="M" name="M">
+                    <label for="L">L</label>
+                    <input type="checkbox" id="L" value="L" name="L">
+                </div>
+                <div>
+                    <textarea name="opinion" id="opinion" cols="30" rows="10"
+                        placeholder="Your opinion about our kits: "></textarea>
+                </div>
+                <button type="button" id="submit" class='btn btn-danger' name="submit">Submit</button>
+            </fieldset>
+
+        </form>
+    </section>
+    <footer>
+        <h1>The FC Arsenal Fan Site</h1>
+        <br>
+        <h3>Developed By Jeton Sllamniku</h3>
+        <h4>2022 - © All Rights Reserved </h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

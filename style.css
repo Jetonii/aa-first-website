@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+body {
+    margin: 0 3%;
+    color: white;
+    background-color: #1b222c;
+
+}
+
+nav {
+    position: relative;
+    height: 10vh;
+    background-color: #000;
+}
+
+nav img {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 7px;
+    width: 52px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+}
+nav li:hover {
+    background-color: #531516;
+    text-decoration: underline;
+    padding-top: 3px;
+}
+
+main {
+    display: grid;
+    background-color: #12151c;
+
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    border: 2px solid #531516;
+    padding: 10px;
+}
+
+aside {
+    background-color: #531516;
+    padding: 20px;
+}
+
+#home-left-part  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#home-left-part h1, h2 {
+    padding: 7px 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main__image {
+    border-radius: 10px;
+    align-self: center;
+    border: 3px solid red;
+}
+
+section {
+    background-color: #12151c;
+
+}
+
+form {
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    width: 70%;
+   
+}
+
+fieldset{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+
+.about__us__h3 {
+    color: #007bff; 
+}
+
+.main__image {
+    width: 100%;
+}
+
+.history__logo__image{
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid #007bff;
+    margin: 0 auto;
+}
+
+
+.kit__image{ 
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    border: 1px solid #007bff;
+}
+
+
+.fan__image {
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    border: 1px solid #007bff;
+}
+
+
+.fan__images__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer > h1 {
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }   
+    .buy__kit__form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
